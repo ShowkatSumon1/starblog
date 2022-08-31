@@ -1,0 +1,131 @@
+/*
+Theme Name: starblog
+Theme URI: https://wp.showkatsumon.com/starblog/
+Author: Showkat Sumon
+Author URI: https://showkatsumon.com
+Description: Very easy to use and good looking blog theme.
+Requires at least: 5.3
+Tested up to: 5.8
+Requires PHP: 5.6
+Version: 1.0.8
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: starblog
+Tags: one-column, three column, blog-theme, starblog, standblog, blog, blog-theme, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, sticky-menu
+*/
+
+/******** Menu style change **********/
+
+.nav-item a {
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #1e1e1e;
+    transition: all 0.3s;
+}
+
+.nav-item a:hover, .current-menu-item a {
+    color: #f48840;
+}
+
+/******** pagination *************/
+
+.pagination .nav-links {
+    margin: auto;
+}
+
+/************ Some Color change ***************/
+
+.post-categories a , .sidebar .sidebar-heading h2, .post-content a{
+    color: #f48840 !important;
+}
+
+/********** Navbar ***************/
+
+.navbar-brand h2 {
+    margin-top: 12px !important;
+}
+
+.navbar-brand img {
+    width: 160px;
+    height: 50px;
+}
+
+.owl-item img {
+    height: 340px;
+}
+
+/*********** home thumbnail **************/
+
+.home-thumb img {
+    height: 400px;
+}
+
+.thumb-blog img {
+    height: 350px;
+}
+
+/********** comments style ***************/
+
+.comment-body {
+    margin-bottom: 10px;
+}
+
+.comments-title {
+    margin-bottom: 15px;
+}
+
+.comments-title:after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #eee;
+    width: 27%;
+}
+
+.comments-list li {
+    list-style-type: none;
+}
+
+.comments-list .children {
+    margin-left: 30px;
+}
+
+.comment-author a {
+    color: #f48840;
+}
+
+.comment-meta a {
+    font-size: 11px;
+}
+
+.comment-form-comment label {
+    display: none;
+}
+
+.logged-in-as a:first-child {
+    font-size: 13px;
+}
+
+.logged-in-as a:last-child {
+    color: #f48840;
+}
+
+.comments-pagination {
+    margin-top: 6px;
+}
+
+.comment-respond {
+    margin-top: 10px;
+}
+
+.comment-respond .submit {
+    cursor: pointer;
+}
+
+/********* dashicon style *****************/
+
+.page-numbers li a span {
+    margin: 14px auto;
+}
